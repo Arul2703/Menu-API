@@ -12,6 +12,7 @@ namespace FoodMenuApi.Controllers
     public class MenuController : ControllerBase
     {
         private readonly IFoodMenuService _menuService;
+        // Menu
         private readonly ILogger<MenuController> _logger;
 
         public MenuController(IFoodMenuService menuService, ILogger<MenuController> logger)
